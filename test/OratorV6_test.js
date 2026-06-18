@@ -15,12 +15,8 @@ var Expect = Chai.expect;
 var libTidings = require('../source/Tidings.js');
 var libRequest = require('request');
 
-// Fable 3 and Orator 6 via aliased devDependencies (fable3, orator6),
-// simulating what a consumer running the modern retold stack would provide.
-// This tests that tidings works when the consumer passes fable 3 as
-// its fable instance, even though tidings declares fable ^2.0.5.
-var Fable3 = require('fable3');
-var Orator6 = require('orator6');
+var Fable3 = require('fable');
+var Orator6 = require('orator');
 var OratorServiceServerRestify = require('orator-serviceserver-restify');
 
 var GLOBAL_REPORT_HASH = false;
