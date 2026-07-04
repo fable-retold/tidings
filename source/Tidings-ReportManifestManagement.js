@@ -1,4 +1,4 @@
-// ##### Part of the **[retold](https://stevenvelozo.github.io/retold/)** system
+// ##### Part of the **[retold](https://fable-retold.io/)** system
 /**
 * @license MIT
 * @author <steven@velozo.com>
